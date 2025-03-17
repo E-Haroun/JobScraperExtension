@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background -->
+  <circle cx="64" cy="64" r="60" fill="#4285F4"/>
+  
+  <!-- Briefcase body -->
+  <rect x="34" y="48" width="60" height="45" rx="4" fill="#FFFFFF"/>
+  
+  <!-- Briefcase handle -->
+  <path d="M54 48 V38 C54 34 58 34 64 34 C70 34 74 34 74 38 V48" stroke="#FFFFFF" stroke-width="6" fill="none"/>
+  
+  <!-- Data lines -->
+  <rect x="44" y="60" width="40" height="4" rx="2" fill="#4285F4"/>
+  <rect x="44" y="70" width="30" height="4" rx="2" fill="#4285F4"/>
+  <rect x="44" y="80" width="35" height="4" rx="2" fill="#4285F4"/>
+  
+  <!-- Extraction arrow -->
+  <path d="M86 66 L98 78 L86 90" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="98" y1="78" x2="75" y2="78" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+</svg>

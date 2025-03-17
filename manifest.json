@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Job Data Extractor",
+    "version": "1.0",
+    "description": "Automatically extracts comprehensive job listing data from job boards and company career pages",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "scripting",
+      "downloads",
+      "tabs"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icons/icon128.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js", "download-helper.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "icons": {
+      "128": "icons/icon128.png"
+    }
+  }
